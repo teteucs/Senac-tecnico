@@ -1,0 +1,165 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+header{
+    background : linear-gradient(rgb(216, 181, 128),rgb(233, 222, 174),rgb(233, 220, 200));
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 150px;
+}
+header img{
+    max-width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+header nav{
+    margin-right: 10%;
+    
+}
+
+header nav a{
+    text-decoration:none; /*remove a decoração do link */
+    color:#000;/*cor do texto */
+    text-transform: uppercase;/*texto em maiusculo*/
+    padding: 10px;/*margem interna*/
+    font-weight:bold;/*texto em negrito*/
+    
+}
+header nav a:hover{
+    color:white;/*cor do texto */
+    text-decoration: underline; /*sublinhado*/
+    font-size: 20px;/*tamanho da fonte*/
+}
+/*-----------------------home-------------------------*/
+h1{
+    font-size: 25px;
+    padding:20px; /**/
+   padding-top :30px;
+   padding-bottom: 30px;
+   text-align: center;
+   
+}
+.sobre{
+    background-color:white;
+    display: flex;
+}
+
+
+.sobre img{
+    width:100% ;
+    height: 750px;
+   /* margin: 0px 20px 0px 20px;*/
+
+}
+
+.sobre-img-txt {
+    font-size: 15px;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+
+footer{
+    padding: 30px;
+    height: 200px;
+    background-image: url(imagem/rodape.jpg);
+    margin-top: 40px;
+}
+
+
+
+.numeros img{
+    width: 40px;
+    height: 40px;
+   margin:20px
+
+}
+.numeros{
+    display: flex;
+    justify-content:center ;
+}
+.numeros p{
+    margin-top: 40px;
+}
+
+.logo img {
+   margin-left: 750px;
+    width:100px ;
+    height: 100px;  
+}
+.sobre-img-txt strong{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*-----------------------------------------------------------------*/
+
+.livros{
+    display:flex;
+    text-align: center;
+    width: 60%;
+    margin:80px;
+    
+}
+
+.livros img{
+    margin: 40px;
+    width: 100px;
+    height: 150px;
+
+}
+
+.livros h1{
+    margin-top: 10px;
+   font-size: small;
+
+}
+
+.livros strong{
+    font-weight: bold;
+}
+
+.livros a{
+     font-size:small;
+     margin-top: 180px;   
+     text-align: center;
+}
+/*--------------------------------------------------------------------*/
+.formulario {
+    display:flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 40px;
+   
+}
+.formulario label{
+    padding-top: 20px;
+}
+
+.formulario button{
+    margin-top: 40px;
+    background-color: rgba(0, 255, 55, 0.808);
+    width: 200px;
+    height: 80px;
+}
+
+.estabelecimento div iframe{
+        width: 100%;
+        height: 500px;
+        align-items: center;
+    }
+
+.estabelecimento h1{
+    margin-right: 80px;
+}
+
+
+
+
+
+
+
